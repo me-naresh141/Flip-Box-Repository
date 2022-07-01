@@ -183,8 +183,6 @@ p {
   border-radius: 5px;
 }
 .childBox:hover {
-  width: 9rem;
-  height: 9rem;
   background-image: url('https://images.unsplash.com/photo-1635927300503-05044fadd0bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNoaXZhamklMjBtYWhhcmFqfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
   background-position: center;
   background-repeat: no-repeat;
