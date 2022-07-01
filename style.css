@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* generalStyle */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: url('https://media.istockphoto.com/photos/shivratri-and-shiva-a-man-soing-namskara-to-shiva-statue-picture-id1372366762?b=1&k=20&m=1372366762&s=170667a&w=0&h=KKuhuWn7LozFnjm-J42sjH3HWLlVL0MYJ-Yl-6IsVKM=');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Dancing Script', cursive;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem 0 4rem 0;
+  color: white;
+}
+
+.parentDiv {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem;
+  background: linear-gradient(
+    to right,
+    rgba(220, 141, 199, 0.163),
+    rgba(255, 255, 255, 0.283)
+  );
+  border-radius: 10px;
+}
+.childBox {
+  width: 8rem;
+  height: 8rem;
+  border: 6px double white;
+  background-color: rgba(204, 100, 100, 0.163);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.childBox:hover {
+  width: 9rem;
+  height: 9rem;
+  background-image: url('https://images.unsplash.com/photo-1635927300503-05044fadd0bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNoaXZhamklMjBtYWhhcmFqfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.numdiv {
+  display: none;
+}
